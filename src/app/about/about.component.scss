@@ -1,0 +1,26 @@
+.container {
+  margin-top: 110px;
+}
+span{
+  color: rgb(255, 136, 0);
+  
+}
+.col-5{
+  box-shadow: 0 0 10px;
+  padding: 10px;
+}
+
+.curve-1{
+  border-radius: 10px 10px 0 10px ;
+  background-color:rgb(255, 136, 0);
+}
+.curve-2{
+  border-radius:  10px 10px 10px 0;
+}
+.curve-3{
+  border-radius: 10px 0 10px 10px;
+  background-color:rgb(255, 136, 0);
+}
+.curve-4{
+  border-radius: 0 10px 10px 10px;
+}

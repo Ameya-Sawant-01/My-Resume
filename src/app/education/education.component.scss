@@ -1,0 +1,78 @@
+.card-container {
+  position: relative;
+  width: auto;
+  perspective: 200rem;
+  //   height: 10px;
+}
+
+.col-4:hover .card-front {
+  transform: rotateY(180deg);
+}
+
+.col-4:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background-color: rgb(255, 136, 0);
+  margin-top: 10px;
+  position: absolute;
+  height: 250px;
+  width: 50px;
+  transition: all 0.9s;
+  backface-visibility: hidden;
+}
+// .row-2{
+//     margin-top: 2px;
+// }
+
+.card-back .card-body {
+  position: relative;
+}
+// .card-img-top {
+//   padding-top: 19px;
+// }
+
+.back {
+  position: absolute;
+  width: 235px;
+  height: auto;
+  margin: 2px 3px -12px 2px;
+}
+
+.course {
+  margin-top: 270px;
+  text-align: center;
+}
+
+.ssc {
+  margin-top: 45px;
+  margin-left: 35px;
+  height: 120px;
+  width: auto;
+}
+
+.idol {
+  margin-top: 45px;
+  margin-left: 22px;
+  height: 120px;
+  width: auto;
+}
+.diploma {
+  margin-top: 55px;
+  margin-left: 32px;
+  height: 120px;
+  width: auto;
+}
+.itv{
+  margin-top: 55px;
+  margin-left: 42px;
+  height: 120px;
+  width: auto;
+}

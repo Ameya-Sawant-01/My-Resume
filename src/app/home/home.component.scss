@@ -1,0 +1,36 @@
+.container {
+  margin-top: 220px;
+}
+
+span{
+    color: rgb(255, 166, 0);
+}
+
+.btn:hover{
+    background:  rgb(255, 166, 0);
+    border: 0;
+    // box-shadow: 0 0 3px 3px gray;
+    color: black;
+}
+
+.btn{
+    border-radius: 50px;
+    
+}
+
+.github {
+    height: 40px;
+    width: auto;
+    background-color:  rgb(255, 166, 0);
+    border-radius: 35%;
+    margin-bottom: 10px;
+}
+
+.linked {
+    height: 40px;
+    width: auto;
+    background-color:  rgb(255, 166, 0);
+    border-radius: 35%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
